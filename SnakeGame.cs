@@ -135,7 +135,7 @@ class Program
 
             }
 
-            Console.ForegroundColor =  błąd//ConsoleColor.Red;
+            Console.ForegroundColor =  ConsoleColor.Red;
 
             Console.WriteLine("Score: " + score);
 
