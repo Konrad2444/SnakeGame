@@ -15,7 +15,7 @@ class Program
     static void Main()
 
     {
-
+		//Deklaracja zmiennych
         Console.WindowHeight = 16;
 
         Console.WindowWidth = 32;
@@ -69,6 +69,7 @@ class Program
 
         int obstacleYpos = randomnummer.Next(1, screenheight);
 
+		//Nieskończonna pętla w której działa gra
         while (true)
 
         {
